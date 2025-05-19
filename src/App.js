@@ -28,14 +28,14 @@ function MainApp() {
       <header className="navbar">
         <div className="logo">
   <img src="logo-img.jpg" alt="Logo" className="logo-img" />
-  <span className="logo-text">DevCloud</span>
+  <span className="logo-text">Dammu</span>
 </div>
 
         <nav>
           <ul>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
-            <li><Link to="/projects">Work</Link></li>
+            <li><Link to="/projects">Projects</Link></li>
             <li><Link to="/skillscertificates">My Creds</Link></li>
             <li><Link to="/contact">Contact</Link></li>
             <li><a className="cta" href="/contact">Let's Talk</a></li>

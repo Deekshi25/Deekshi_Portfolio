@@ -18,10 +18,6 @@ function Home() {
           <p>
             I may not have formal industry experience yet, but I have worked on several academic and personal projects that showcase my skills and willingness to learn. I enjoy solving problems, experimenting with new tools and building clean, user-friendly applications using modern technologies.
           </p>
-          <div className="buttons">
-            <button className="btn learn">Learn More</button>
-            <button className="btn hire">Hire Me</button>
-          </div>
         </div>
         <div className="image">
           <img src={profile} alt="Web Developer" />
