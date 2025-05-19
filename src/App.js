@@ -9,6 +9,7 @@ import ProjectSection from './components/ProjectSection';
 import SkillsAndCertifications from './components/SkillsAndCertifications';
 import { ThemeProvider, ThemeContext } from './context/ThemeContext';
 
+
 function App() {
   return (
     <ThemeProvider>
@@ -25,7 +26,11 @@ function MainApp() {
   return (
     <div className={`App ${darkMode ? "dark" : "light"}`}>
       <header className="navbar">
-        <div className="logo">DevCloud<span></span></div>
+        <div className="logo">
+  <img src="logo-img.jpg" alt="Logo" className="logo-img" />
+  <span className="logo-text">DevCloud</span>
+</div>
+
         <nav>
           <ul>
             <li><Link to="/">Home</Link></li>

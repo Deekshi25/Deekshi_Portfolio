@@ -1,6 +1,7 @@
 .skills-certifications {
   padding: 2rem;
   max-width: 800px;
+  background: url("../assets/mycreds-bg.jpeg") no-repeat center center fixed;
   margin: 0 auto;
 }
 
